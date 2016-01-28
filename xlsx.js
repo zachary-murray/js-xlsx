@@ -11552,6 +11552,7 @@ function sheet_to_json(sheet, opts){
 				case 'e': continue;
 				case 's': break;
 				case 'b': case 'n': break;
+				case 'stub': break;
 				default: throw 'unrecognized type ' + val.t;
 			}
 			if(v !== undefined) {
